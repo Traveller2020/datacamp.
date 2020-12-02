@@ -1,0 +1,8 @@
+# Importing the pandas module
+import pandas as pd
+
+# Reading in the global temperature data
+global_temp = pd.read_csv('datasets/global_temperature.csv')
+
+# Take a look at the first datapoints
+global_temp.head()
